@@ -1,0 +1,27 @@
+{
+  "name": "postcss-asset-url",
+  "version": "0.0.0",
+  "description": "Map urls to different locations",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "url",
+    "assets",
+    "path"
+  ],
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "MIT",
+  "dependencies": {
+    "postcss": "^5.0.15",
+    "postcss-message-helpers": "^2.0.0",
+    "reduce-function-call": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
